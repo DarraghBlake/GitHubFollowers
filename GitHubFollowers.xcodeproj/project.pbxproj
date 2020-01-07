@@ -60,6 +60,7 @@
 		027C0B2E23C39D9400600A4C /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				027C0B4E23C51D9800600A4C /* Utils */,
 				027C0B4923C3B2B200600A4C /* Controller */,
 				027C0B4823C3B2B000600A4C /* View */,
 				027C0B4723C3B2AB00600A4C /* Model */,
@@ -68,8 +69,6 @@
 				027C0B3823C39D9700600A4C /* Assets.xcassets */,
 				027C0B3A23C39D9700600A4C /* LaunchScreen.storyboard */,
 				027C0B3D23C39D9700600A4C /* Info.plist */,
-				027C0B4A23C3B33100600A4C /* GFButton.swift */,
-				027C0B4C23C3B6AC00600A4C /* GFTextField.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -95,6 +94,15 @@
 				027C0B4523C3AC2700600A4C /* FavouritesListVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		027C0B4E23C51D9800600A4C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				027C0B4A23C3B33100600A4C /* GFButton.swift */,
+				027C0B4C23C3B6AC00600A4C /* GFTextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
