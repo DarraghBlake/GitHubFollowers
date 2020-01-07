@@ -15,6 +15,7 @@
 		027C0B4623C3AC2700600A4C /* FavouritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B4523C3AC2700600A4C /* FavouritesListVC.swift */; };
 		027C0B4B23C3B33100600A4C /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B4A23C3B33100600A4C /* GFButton.swift */; };
 		027C0B4D23C3B6AC00600A4C /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B4C23C3B6AC00600A4C /* GFTextField.swift */; };
+		027C0B5023C5299700600A4C /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B4F23C5299700600A4C /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		027C0B4523C3AC2700600A4C /* FavouritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListVC.swift; sourceTree = "<group>"; };
 		027C0B4A23C3B33100600A4C /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		027C0B4C23C3B6AC00600A4C /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		027C0B4F23C5299700600A4C /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				027C0B4323C3ABFE00600A4C /* SearchVC.swift */,
 				027C0B4523C3AC2700600A4C /* FavouritesListVC.swift */,
+				027C0B4F23C5299700600A4C /* FollowerListVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				027C0B4423C3ABFE00600A4C /* SearchVC.swift in Sources */,
 				027C0B4B23C3B33100600A4C /* GFButton.swift in Sources */,
 				027C0B3023C39D9400600A4C /* AppDelegate.swift in Sources */,
+				027C0B5023C5299700600A4C /* FollowerListVC.swift in Sources */,
 				027C0B4623C3AC2700600A4C /* FavouritesListVC.swift in Sources */,
 				027C0B3223C39D9400600A4C /* SceneDelegate.swift in Sources */,
 			);
