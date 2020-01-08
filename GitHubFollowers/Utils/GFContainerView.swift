@@ -20,7 +20,11 @@ class GFContainerView: UIView {
     }
     
     private func configure() {
-        
+        layer.cornerRadius = 26
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.white.cgColor
+        backgroundColor = .systemBackground
+        translatesAutoresizingMaskIntoConstraints = false
     }
     
 }

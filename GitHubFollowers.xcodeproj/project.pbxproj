@@ -20,6 +20,7 @@
 		027C0B5423C5347E00600A4C /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B5323C5347E00600A4C /* GFBodyLabel.swift */; };
 		027C0B5623C5353E00600A4C /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B5523C5353E00600A4C /* GFAlertVC.swift */; };
 		027C0B5823C5359000600A4C /* GFContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B5723C5359000600A4C /* GFContainerView.swift */; };
+		027C0B5A23C62E8F00600A4C /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B5923C62E8F00600A4C /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		027C0B5323C5347E00600A4C /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		027C0B5523C5353E00600A4C /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		027C0B5723C5359000600A4C /* GFContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFContainerView.swift; sourceTree = "<group>"; };
+		027C0B5923C62E8F00600A4C /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				027C0B3823C39D9700600A4C /* Assets.xcassets */,
 				027C0B3A23C39D9700600A4C /* LaunchScreen.storyboard */,
 				027C0B3D23C39D9700600A4C /* Info.plist */,
+				027C0B5923C62E8F00600A4C /* UIViewController+Ext.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				027C0B4D23C3B6AC00600A4C /* GFTextField.swift in Sources */,
 				027C0B4423C3ABFE00600A4C /* SearchVC.swift in Sources */,
+				027C0B5A23C62E8F00600A4C /* UIViewController+Ext.swift in Sources */,
 				027C0B4B23C3B33100600A4C /* GFButton.swift in Sources */,
 				027C0B3023C39D9400600A4C /* AppDelegate.swift in Sources */,
 				027C0B5623C5353E00600A4C /* GFAlertVC.swift in Sources */,
