@@ -27,6 +27,7 @@
 		027C0B6523C7C9A800600A4C /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B6423C7C9A800600A4C /* GFError.swift */; };
 		027C0B6823CB759F00600A4C /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B6723CB759F00600A4C /* FollowerCell.swift */; };
 		027C0B6A23CB761600600A4C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B6923CB761600600A4C /* GFAvatarImageView.swift */; };
+		027C0B6C23CCB17A00600A4C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B6B23CCB17A00600A4C /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		027C0B6423C7C9A800600A4C /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		027C0B6723CB759F00600A4C /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		027C0B6923CB761600600A4C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		027C0B6B23CCB17A00600A4C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				027C0B6423C7C9A800600A4C /* GFError.swift */,
+				027C0B6B23CCB17A00600A4C /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				027C0B5823C5359000600A4C /* GFContainerView.swift in Sources */,
 				027C0B5023C5299700600A4C /* FollowerListVC.swift in Sources */,
 				027C0B6523C7C9A800600A4C /* GFError.swift in Sources */,
+				027C0B6C23CCB17A00600A4C /* UIHelper.swift in Sources */,
 				027C0B6323C7BC7800600A4C /* NetworkManager.swift in Sources */,
 				027C0B4623C3AC2700600A4C /* FavouritesListVC.swift in Sources */,
 				027C0B3223C39D9400600A4C /* SceneDelegate.swift in Sources */,
