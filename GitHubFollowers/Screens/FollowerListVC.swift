@@ -29,7 +29,6 @@ class FollowerListVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
-
     }
     
     func configureViewControlloer() {
@@ -52,7 +51,6 @@ class FollowerListVC: UIViewController {
             case .success(let followers):
                 self.followers = followers
                 self.updateData()
-                
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Error!", message: error.rawValue, buttonTitle: "Ok")
             }
@@ -72,7 +70,5 @@ class FollowerListVC: UIViewController {
         snapShot.appendSections([.main])
         snapShot.appendItems(followers)
         DispatchQueue.main.async { self.dataSource.apply(snapShot, animatingDifferences: true) }
-        
     }
-
 }
