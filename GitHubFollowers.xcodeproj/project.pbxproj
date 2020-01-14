@@ -29,6 +29,7 @@
 		027C0B6A23CB761600600A4C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B6923CB761600600A4C /* GFAvatarImageView.swift */; };
 		027C0B6C23CCB17A00600A4C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B6B23CCB17A00600A4C /* UIHelper.swift */; };
 		027C0B7423CDCEF100600A4C /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B7323CDCEF100600A4C /* GFEmptyStateView.swift */; };
+		027C0B7623CDE0C100600A4C /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C0B7523CDE0C100600A4C /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		027C0B6923CB761600600A4C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		027C0B6B23CCB17A00600A4C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		027C0B7323CDCEF100600A4C /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		027C0B7523CDE0C100600A4C /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				027C0B4323C3ABFE00600A4C /* SearchVC.swift */,
 				027C0B4523C3AC2700600A4C /* FavouritesListVC.swift */,
 				027C0B4F23C5299700600A4C /* FollowerListVC.swift */,
+				027C0B7523CDE0C100600A4C /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				027C0B6823CB759F00600A4C /* FollowerCell.swift in Sources */,
 				027C0B6A23CB761600600A4C /* GFAvatarImageView.swift in Sources */,
 				027C0B5423C5347E00600A4C /* GFBodyLabel.swift in Sources */,
+				027C0B7623CDE0C100600A4C /* UserInfoVC.swift in Sources */,
 				027C0B5E23C7B70000600A4C /* Follower.swift in Sources */,
 				027C0B5223C5332900600A4C /* GFTitleLabel.swift in Sources */,
 				027C0B5823C5359000600A4C /* GFContainerView.swift in Sources */,
