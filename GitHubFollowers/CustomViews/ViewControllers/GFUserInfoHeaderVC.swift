@@ -33,6 +33,7 @@ class GFUserInfoHeaderVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
+        configureUIElements()
     }
     
     func configure() {
@@ -42,6 +43,18 @@ class GFUserInfoHeaderVC: UIViewController {
         configureNameLabel()
         configureLocationLabel()
         configureAvatarImageView()
+    }
+    
+    func configureUIElements() {
+        avatarImageView.downloadImage(from: user.avatarUrl)
+        usernameLabel.text = user.login
+        nameLabel.text = user.name ?? ""
+        locationLabel.text = user.location ?? ""
+        bioLabel.text = user.bio ?? ""
+        bioLabel.numberOfLines = 3
+        
+        locationImageView.image = UIImage(systemName: SFSymbols.location)
+        locationImageView.tintColor = .secondaryLabel
     }
     
     func configureAvatarImageView() {
