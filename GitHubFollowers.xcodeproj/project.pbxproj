@@ -34,6 +34,7 @@
 		028FCDFF23DA2012004194DF /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCDFE23DA2012004194DF /* GFSecondaryTitleLabel.swift */; };
 		028FCE0323DA3A6A004194DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0223DA3A6A004194DF /* Constants.swift */; };
 		028FCE0523DCAD44004194DF /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0423DCAD44004194DF /* GFItemInfoView.swift */; };
+		028FCE0723DCBD55004194DF /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0623DCBD55004194DF /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		028FCDFE23DA2012004194DF /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		028FCE0223DA3A6A004194DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		028FCE0423DCAD44004194DF /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		028FCE0623DCBD55004194DF /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 				027C0B5723C5359000600A4C /* GFContainerView.swift */,
 				027C0B5523C5353E00600A4C /* GFAlertVC.swift */,
 				028FCDFC23DA1FB2004194DF /* GFUserInfoHeaderVC.swift */,
+				028FCE0623DCBD55004194DF /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				027C0B5223C5332900600A4C /* GFTitleLabel.swift in Sources */,
 				027C0B5823C5359000600A4C /* GFContainerView.swift in Sources */,
 				027C0B5023C5299700600A4C /* FollowerListVC.swift in Sources */,
+				028FCE0723DCBD55004194DF /* GFItemInfoVC.swift in Sources */,
 				027C0B6523C7C9A800600A4C /* GFError.swift in Sources */,
 				027C0B6C23CCB17A00600A4C /* UIHelper.swift in Sources */,
 				027C0B6323C7BC7800600A4C /* NetworkManager.swift in Sources */,
