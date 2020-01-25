@@ -39,10 +39,10 @@ class GFUserInfoHeaderVC: UIViewController {
     func configure() {
         configureAvatarImageView()
         configureUsernameLabel()
-        configureBioLabel()
         configureNameLabel()
+        configureLocationImageView()
         configureLocationLabel()
-        configureAvatarImageView()
+        configureBioLabel()
     }
     
     func configureUIElements() {
