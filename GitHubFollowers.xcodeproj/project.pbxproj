@@ -33,6 +33,7 @@
 		028FCDFD23DA1FB2004194DF /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCDFC23DA1FB2004194DF /* GFUserInfoHeaderVC.swift */; };
 		028FCDFF23DA2012004194DF /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCDFE23DA2012004194DF /* GFSecondaryTitleLabel.swift */; };
 		028FCE0323DA3A6A004194DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0223DA3A6A004194DF /* Constants.swift */; };
+		028FCE0523DCAD44004194DF /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0423DCAD44004194DF /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		028FCDFC23DA1FB2004194DF /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		028FCDFE23DA2012004194DF /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		028FCE0223DA3A6A004194DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		028FCE0423DCAD44004194DF /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				027C0B7323CDCEF100600A4C /* GFEmptyStateView.swift */,
+				028FCE0423DCAD44004194DF /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				027C0B6C23CCB17A00600A4C /* UIHelper.swift in Sources */,
 				027C0B6323C7BC7800600A4C /* NetworkManager.swift in Sources */,
 				027C0B4623C3AC2700600A4C /* FavouritesListVC.swift in Sources */,
+				028FCE0523DCAD44004194DF /* GFItemInfoView.swift in Sources */,
 				027C0B3223C39D9400600A4C /* SceneDelegate.swift in Sources */,
 				028FCE0323DA3A6A004194DF /* Constants.swift in Sources */,
 			);
