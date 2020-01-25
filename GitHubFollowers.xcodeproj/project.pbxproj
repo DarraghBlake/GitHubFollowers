@@ -39,6 +39,7 @@
 		028FCE0B23DCC933004194DF /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0A23DCC933004194DF /* GFFollowerItemVC.swift */; };
 		028FCE0E23DCD3B5004194DF /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0D23DCD3B5004194DF /* Date+Ext.swift */; };
 		028FCE1023DCD3EA004194DF /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE0F23DCD3EA004194DF /* String+Ext.swift */; };
+		028FCE1223DCE4D3004194DF /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FCE1123DCE4D3004194DF /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		028FCE0A23DCC933004194DF /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		028FCE0D23DCD3B5004194DF /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		028FCE0F23DCD3EA004194DF /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		028FCE1123DCE4D3004194DF /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				027C0B6223C7BC7800600A4C /* NetworkManager.swift */,
+				028FCE1123DCE4D3004194DF /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				027C0B6023C7B7C000600A4C /* User.swift in Sources */,
 				027C0B6823CB759F00600A4C /* FollowerCell.swift in Sources */,
 				027C0B6A23CB761600600A4C /* GFAvatarImageView.swift in Sources */,
+				028FCE1223DCE4D3004194DF /* PersistenceManager.swift in Sources */,
 				028FCE0923DCC775004194DF /* GFRepoItemVC.swift in Sources */,
 				027C0B5423C5347E00600A4C /* GFBodyLabel.swift in Sources */,
 				027C0B7623CDE0C100600A4C /* UserInfoVC.swift in Sources */,
